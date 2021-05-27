@@ -1,0 +1,33 @@
+.settingsDisplay {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.input-container {
+    display: flex;
+    margin-right: 10px;
+}
+
+.numInput {
+    text-align: center;
+    height: 30px;
+    width: 90px;
+    margin-left: 20px;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.title {
+    font-size: 35px;
+}

@@ -1,0 +1,33 @@
+.display {
+    border: 3px solid deepskyblue;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.counter {
+    font-size: 100px;
+    color: white;
+}
+
+.counter-max {
+    font-size: 100px;
+    color: red;
+}
+
+.errorMessage {
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.errorMessageRed {
+    margin: 5px;
+    font-size: 25px;
+    color: red;
+}

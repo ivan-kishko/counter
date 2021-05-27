@@ -1,0 +1,26 @@
+button {
+    margin: 20px;
+    height: 60px;
+    width: 90px;
+    border: 3px solid deepskyblue;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    background: black;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+button:disabled:hover {
+    background: black;
+}
+
+button:hover {
+    background: blue;
+}
+
+button:active {
+    transform: translateY(2px);
+}
